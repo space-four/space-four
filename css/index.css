@@ -136,7 +136,7 @@ h6 {
   
   .text-column {
     margin: 10px;
-    padding: 0px 20px;
+    padding: 10px 20px;
   }
 
   div {
@@ -153,7 +153,7 @@ h6 {
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .accent-headline {
