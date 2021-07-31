@@ -134,9 +134,9 @@ h6 {
 
 @media all and (max-width: 800px) {
   
-  text-column {
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
+  .text-column {
+    margin: 10px;
+    padding: 0px 20px;
   }
 
   div {
