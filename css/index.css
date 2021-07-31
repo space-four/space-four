@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 
   color: #060f12;
 
-  margin: 20px 0px;
   padding: 0px 0px;
 } 
 
@@ -119,29 +118,6 @@ h6 {
   flex-wrap: wrap;
 }
 
-@media all and (max-width: 800px) {
-  
-  text-column {
-    flex: 100%;
-    margin: 0px;
-    padding: 10px 10px;
-  }
-
-  div {
-    max-width: 100%;
-    margin: 10px;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-}
-
 /* Special Section Styling */
 
 #headline-specs {
@@ -153,3 +129,36 @@ h6 {
   margin-top: 200px;
   margin-bottom: 100px;
 }
+
+/* Responsive Styling */
+
+@media all and (max-width: 800px) {
+  
+  text-column {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  div {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .accent-headline {
+    font-size: 14px;
+  }
+
+}
+
