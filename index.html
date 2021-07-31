@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <!-- Meta Stuff -->  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Space Four Design System</title>
+  
+  <!-- Utilities -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Prompt-->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--Russo One-->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header class="header-fixed">
+
+  <div class="header-limiter">
+
+    <img class="header-logo" src="assets/Logo/space four_RGB_weiss.png">
+
+    
+    <nav>
+      <a href="https://www.space-4.de/" target="_blank">Official SP4 Website</a>
+      <a href="#" >Nav-Item</a>
+      <a href="https://space-4.de/kontakt/" target="_blank" class="button-primary">Contact</a>
+    </nav>
+
+  </div>
+
+</header>
+
+<!-- You need this element to prevent the content of the page from jumping up -->
+<div class="header-fixed-placeholder"></div>
+
+<!-- The content of your page would go here. -->
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+
+    // Specify after how many pixel scrolled the second header drops in
+    var showHeaderAt = 300;
+
+    var win = $(window),
+        body = $('body');
+
+    // Show the fixed header only on larger screen devices
+
+    if(win.width() > 400){
+
+      // When we scroll more than 150px down, we set the
+      // "fixed" class on the body element.
+
+      win.on('scroll', function(e){
+
+        if(win.scrollTop() > showHeaderAt) {
+          body.addClass('fixed');
+        }
+        else {
+          body.removeClass('fixed');
+        }
+      });
+
+    }
+
+  });
+</script>
+
+</body>

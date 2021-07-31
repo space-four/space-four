@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1500px;
+}
+
+.button-primary {
+  background-color: #d1a101;
+  font-family: 'Russo One', sans-serif;
+  font-size: 14px;
+  border: 3px solid #F6BE00;
+  border-radius: 2px;
+  color: #002f3c ;
+  box-shadow: 6px 5px 0px 0px #002f3c;
+  margin-right: 20px;
+  padding: 10px 10px;
+  opacity: 0.9;
+}
+
+.button-primary:hover {
+  opacity: 1;
+}
