@@ -1,5 +1,5 @@
 div {
-  margin:    0 auto;
+  margin: 0 auto;
   max-width: 80%;
 }
 
@@ -117,6 +117,19 @@ h6 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+@media all and (max-width: 800px) {
+  
+  text-column {
+    flex: 100%;
+    margin: 0px;
+  }
+
+  div {
+    max-width: 100%;
+    margin: 10px;
+  }
 }
 
 /* Special Section Styling */
