@@ -6,7 +6,6 @@ div {
 body {
   margin: 0;
   padding: 0;
-  height: 1500px;
 }
 
 .button-primary {
@@ -86,6 +85,12 @@ h6 {
   color: white;
 }
 
+.accent-headline {
+  font-family: 'Russo One', sans-serif;
+  color: #6247aa;
+  text-transform: lowercase;
+}
+
 /* Card-Styles */
 
 .box-shadow {
@@ -114,6 +119,14 @@ h6 {
   flex-wrap: wrap;
 }
 
-.top-bottom-padding {
-  padding: 50px 0px;
+/* Special Section Styling */
+
+#headline-specs {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#accent-headline-specs {
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
