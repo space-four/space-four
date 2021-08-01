@@ -10,16 +10,7 @@ body {
 
 /* Structure */
 
-.column-dark {
-  background-color: #060f12;
-  color: white;
-}
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
 /* Section Styling */
 
@@ -33,6 +24,8 @@ body {
   margin-bottom: 100px;
 }
 
+/* Site-Specific Component Styles */
+
 .color-tile {
   min-width: 125px;
 }
@@ -40,10 +33,6 @@ body {
 /* Responsive Styling */
 
 @media all and (max-width: 800px) {
-
-  body {
-    padding: 0px 10px;
-  }
   
   div {
     max-width: 100%;

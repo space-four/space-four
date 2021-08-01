@@ -8,6 +8,17 @@
     margin: 15px 15px;
   }
 
+  .column-dark {
+  background-color: #060f12;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* To-Top-Button*/
 
 .to-top-button {
@@ -23,11 +34,31 @@
 	margin: 0 3em 3em 0;
 
   text-decoration: none;
+
+  background-color: transparent;
+  font-family: 'Russo One', sans-serif;
+  font-size: 14px;
+  border: 3px solid #F6BE00;
+  border-radius: 2px;
+  color: #002f3c ;
+  box-shadow: 6px 5px 0px 0px #54595F;
+  margin-right: 20px;
+  padding: 10px 10px;
+  min-width: 80px;
+  opacity: 0.9;
+}
+
+.button-primary:hover {
+  opacity: 1;
 }
 
   /* Responsive Styles */
 
 @media all and (max-width: 800px) {
+
+  .page-wrapper {
+    padding: 0px 10px;
+  }
 
   .column {
     margin: 10px;
