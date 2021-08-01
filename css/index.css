@@ -102,12 +102,7 @@ h6 {
 
 /* Structure */
 
-.text-column {
-  padding: 25px 50px;
-  margin: 25px 10px;
-}
-
-.text-column-dark {
+.column-dark {
   background-color: #060f12;
   color: white;
 }
@@ -133,11 +128,6 @@ h6 {
 /* Responsive Styling */
 
 @media all and (max-width: 800px) {
-  
-  .text-column {
-    margin: 10px;
-    padding: 10px 20px;
-  }
 
   div {
     max-width: 100%;

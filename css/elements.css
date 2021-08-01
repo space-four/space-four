@@ -1,0 +1,18 @@
+.section-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.column {
+    padding: 25px 50px;
+    margin: 25px 25px;
+  }
+
+  /* Responsive Styles */
+
+@media all and (max-width: 800px) {
+
+  .column {
+    margin: 10px;
+    padding: 10px 20px;
+  }
