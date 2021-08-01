@@ -126,6 +126,41 @@ h6 {
   margin-bottom: 100px;
 }
 
+/* Section with Branded Colours */
+
+.color-tile {
+  min-width: 150px;
+}
+
+.background-accent-color-one {
+  background: #6247aa;
+}
+
+.background-accent-color-two {
+  background: #F9AC2F;
+}
+
+.background-primary {
+  background: #102b2f;
+}
+
+.background-space-black {
+  background: #060f12;
+}
+
+.background-dark-grey {
+  background: #28303D;
+}
+
+.background-light-grey {
+  background: #54595F;
+}
+
+.background-noble-green {
+  background: #062726
+}
+
+
 /* Responsive Styling */
 
 @media all and (max-width: 800px) {
@@ -152,4 +187,3 @@ h6 {
   }
 
 }
-
