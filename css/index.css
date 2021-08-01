@@ -15,9 +15,10 @@ body {
   border: 3px solid #F6BE00;
   border-radius: 2px;
   color: #002f3c ;
-  box-shadow: 6px 5px 0px 0px #002f3c;
+  box-shadow: 6px 5px 0px 0px #28303D;
   margin-right: 20px;
   padding: 10px 10px;
+  min-width: 80px;
   opacity: 0.9;
 }
 
@@ -159,7 +160,6 @@ h6 {
 .background-noble-green {
   background: #062726
 }
-
 
 /* Responsive Styling */
 
