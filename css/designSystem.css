@@ -1,21 +1,22 @@
 /* Button-Styles*/
 
 .button-primary {
-  background-color: #d1a101;
-  font-family: 'Russo One', sans-serif;
-  font-size: 14px;
-  border: 3px solid #F6BE00;
-  border-radius: 2px;
-  color: #002f3c ;
-  box-shadow: 6px 5px 0px 0px #28303D;
-  margin-right: 20px;
-  padding: 10px 10px;
+  background-color: #6247aa;
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
+  border: 2px solid #6247aa;
+  border-radius: 50px;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  box-shadow: 4px 3px 0px 2px #422E77;
+  padding: 12px 50px;
   min-width: 80px;
-  opacity: 0.9;
 }
 
 .button-primary:hover {
-  opacity: 1;
+  box-shadow: 0 0;
+  transition: box-shadow 0.3s ease-out;
 }
 
 /* Paragraph-Styles */
@@ -30,6 +31,14 @@ p {
   color: #28303D;
 
   line-height: 1.5em;
+}
+
+.smaller-font {
+  font-size: 16px;
+}
+
+.bigger-font {
+  font-size: 20px;
 }
 
 /* Headline-Styles */
@@ -149,6 +158,14 @@ h6 {
   
     .accent-headline {
       font-size: 14px;
+    }
+
+    .smaller-font {
+      font-size: 14px;
+    }
+
+    .bigger-font {
+      font-size: 17px;
     }
   
   }
