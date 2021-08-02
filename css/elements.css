@@ -2,15 +2,13 @@
 
 }
 
-section {
+.center-divs-horizontally {
   display: flex;
   justify-content: center;
 }
 
 .section-wrapper {
-  padding: 0 10%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 10% 10%;
 }
 
 .column {
@@ -66,7 +64,7 @@ section {
   }
   
   .section-wrapper {
-    padding: 0px;
+    padding: 25% 0;
   }
   .column {
     margin: 10px;
