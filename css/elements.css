@@ -59,6 +59,19 @@ body {
 
   /* Structural Elements */
 
+  /* Lists*/
+
+  ul li {
+    margin: 10px 0;
+    font-family: Nunito, sans-serif;
+  }
+  
+  ul a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
   /* Divider */
 
   .divider {
