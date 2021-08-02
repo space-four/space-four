@@ -21,6 +21,10 @@ body {
   min-width: 100px;
 }
 
+.color-section-divider {
+  margin: 2em 1em;
+}
+
 /* Responsive Styling */
 
 @media all and (max-width: 800px) {
