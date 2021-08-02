@@ -5,7 +5,7 @@
 <head>
 
   <!-- Basics -->
-  <title>Space Four || Elements</title>
+  <title>Space Four - Elements</title>
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">  
 
   <!-- Meta Stuff -->  
@@ -43,6 +43,7 @@
     
     <nav>
       <a href="index.html">Basic Styles</a>
+      <a href="text.html">Text</a>
       <a href="elements.html">Elements</a>
       <a href="https://www.space-4.de/" target="_blank" class="button-primary">space-4.de</a>
     </nav>
@@ -54,7 +55,10 @@
 <!-- You need this element to prevent the content of the page from jumping up -->
 <div class="header-fixed-placeholder"></div>
 
+
 <div class="page-wrapper">
+
+<!-- Grids -->
 
   <div class="section-wrapper">
 
@@ -126,19 +130,21 @@
 
     </div>  
   </div>
-</div>
-
-<!-- Structural Elements -->
-
-  <div class="section-wrapper">
-    <h2 class="accent-headline">Divider</h2>
-    <h2>Content mit Hilfe von Trennern strukturieren</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque, eros ac fringilla convallis, lorem metus tristique lorem, eget sollicitudin leo urna consequat metus.
-    </p>
-  </br>
-    <hr class="divider">
   </div>
+  
+  <!-- Structural Elements -->
+  
+    <div class="section-wrapper">
+      <h2 class="accent-headline">Divider</h2>
+      <h2>Content mit Hilfe von Trennern strukturieren</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque, eros ac fringilla convallis, lorem metus tristique lorem, eget sollicitudin leo urna consequat metus.
+      </p>
+    </br>
+      <hr class="divider">
+    </div>
+  </div>
+
 </div>
 
 <!-- To-Top-Button-->
@@ -146,5 +152,40 @@
 <a class="to-top-button button-primary" href="#">
   <span>Top</span>
 </a>
+
+
+<!-- Header Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+
+    // Specify after how many pixel scrolled the second header drops in
+    var showHeaderAt = 300;
+
+    var win = $(window),
+        body = $('body');
+
+    // Show the fixed header only on larger screen devices
+
+    if(win.width() > 400){
+
+      // When we scroll more than 150px down, we set the
+      // "fixed" class on the body element.
+
+      win.on('scroll', function(e){
+
+        if(win.scrollTop() > showHeaderAt) {
+          body.addClass('fixed');
+        }
+        else {
+          body.removeClass('fixed');
+        }
+      });
+
+    }
+
+  });
+</script>
 
 </body>
