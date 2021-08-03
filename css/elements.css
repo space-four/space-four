@@ -30,33 +30,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* To-Top-Button*/
-
-.to-top-button {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
-  
-	cursor: pointer;
-	align-items: center;
-	justify-content: center;
-	margin: 0 3em 3em 0;
-  
-  text-decoration: none;
-  
-  background-color: white;
-  font-family: 'Russo One', sans-serif;
-  font-size: 12px;
-  border: 3px solid #F6BE00;
-  border-radius: 2px;
-  color: #002f3c ;
-  box-shadow: 6px 5px 0px 0px #54595F;
-  margin-right: 20px;
-  padding: 10px 10px;
-  min-width: 80px;
-}
-
   /* Structural Elements */
 
   /* Lists*/
@@ -75,7 +48,7 @@ body {
   /* Divider */
 
   .divider {
-    border-top: 5px solid #6247AA;
+    border-top: 7px solid #6247AA;
     width: 10%;
     display: inline-block;
   }
@@ -89,7 +62,7 @@ body {
   }
   
   .section-wrapper {
-    padding: 25% 0;
+    padding: 25% 2%;
   }
   .column {
     margin: 10px;
@@ -98,6 +71,6 @@ body {
   }
 
   .divider {
-    width: 25%;
+    width: 35%;
   }
 }

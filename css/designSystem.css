@@ -1,10 +1,10 @@
 /* Button-Styles*/
 
-.button-primary {
+.button {
   background-color: #6247aa;
   font-family: 'Prompt', sans-serif;
   font-size: 15px;
-  border: 2px solid #6247aa;
+  border: 3px solid #6247aa;
   border-radius: 50px;
   color: white;
   font-weight: 300;
@@ -14,9 +14,60 @@
   min-width: 80px;
 }
 
-.button-primary:hover {
+.button:hover {
   box-shadow: 0 0;
   transition: box-shadow 0.3s ease-out;
+}
+
+.button-secondary {
+  background-color: white;
+  border: 3px solid #6247aa;
+  color: #6247aa;
+  font-weight: 400;
+}
+
+.button-secondary:hover {
+  box-shadow: 0 0;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.button-secondary-inverse {
+  background-color: #060f12;
+  border: 2px solid #6247aa;
+  color: #fff;
+  font-weight: 400;
+}
+
+.button-secondary-inverse:hover {
+  box-shadow: 0 0;
+  transition: box-shadow 0.3s ease-out;
+}
+
+/* To-Top-Button*/
+
+.to-top-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	margin: 0 3em 3em 0;
+  
+  text-decoration: none;
+  
+  background-color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 12px;
+  border: 3px solid #F6BE00;
+  border-radius: 2px;
+  color: #002f3c ;
+  box-shadow: 6px 5px 0px 0px #54595F;
+  margin-right: 20px;
+  padding: 10px 10px;
+  min-width: 80px;
 }
 
 /* Paragraph-Styles */
@@ -137,6 +188,7 @@ h6 {
   background: #062726
 }
 
+/* Link Style */
 
 @media all and (max-width: 800px) {
 
