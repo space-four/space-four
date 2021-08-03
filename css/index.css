@@ -10,22 +10,12 @@ body {
 }
 
 .hero-astronaut {
-  max-height: 40vh;
+  max-width: 80%;
   margin-top: 5vh;
 }
 
 .gradient-column {
   min-width: 33%;
-}
-
-#headline-specs {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-#accent-headline-specs {
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 /* Site-Specific Component Styles */
