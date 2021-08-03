@@ -14,10 +14,13 @@
   min-width: 80px;
 }
 
+/* Commented out for the moment, as the effect is a bit buggy
+
 .button:hover {
   box-shadow: 0 0;
   transition: box-shadow 0.3s ease-out;
 }
+*/
 
 .button-secondary {
   background-color: white;
@@ -26,21 +29,11 @@
   font-weight: 400;
 }
 
-.button-secondary:hover {
-  box-shadow: 0 0;
-  transition: box-shadow 0.3s ease-out;
-}
-
 .button-secondary-inverse {
   background-color: #060f12;
   border: 2px solid #6247aa;
   color: #fff;
   font-weight: 400;
-}
-
-.button-secondary-inverse:hover {
-  box-shadow: 0 0;
-  transition: box-shadow 0.3s ease-out;
 }
 
 /* To-Top-Button*/
