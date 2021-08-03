@@ -5,6 +5,16 @@ body {
 
 /* Section Styling */
 
+#index-hero-section {
+  min-height: 70vh;
+  
+}
+
+.hero-astronaut {
+  max-height: 40vh;
+  margin-top: 5vh;
+}
+
 #headline-specs {
   margin-top: 100px;
   margin-bottom: 100px;
