@@ -12,7 +12,7 @@ body {
 .column {
   padding: 25px 25px;
   margin: 20px 10px;
-  max-width: 40%;
+  max-width: 45%;
   }
 
 .column-dark {
@@ -24,6 +24,12 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+/* Button-Group */
+
+.button-group a {
+  margin: 10px;
 }
 
   /* Structural Elements */

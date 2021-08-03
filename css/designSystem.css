@@ -1,6 +1,7 @@
 /* Button-Styles*/
 
 .button {
+  display: inline-block;
   background-color: #6247aa;
   font-family: 'Prompt', sans-serif;
   font-size: 15px;
