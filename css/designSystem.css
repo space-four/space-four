@@ -121,13 +121,6 @@ h6 {
   font-size: 14px;
 }
 
-/*color-gradient*/
-
-.color-gradient-background {
-  background: rgb(98,71,170);
-  background: linear-gradient(175deg, rgba(98,71,170,1) 0%, rgba(16,43,47,1) 65%);
-}
-
 .hero-headline {
   font-size: 50px;
   text-transform: uppercase;
@@ -186,6 +179,13 @@ h6 {
 
 .background-noble-green {
   background: #062726
+}
+
+/* Color Gradient */
+
+.color-gradient-background {
+  background: rgb(98,71,170);
+  background: linear-gradient(175deg, rgba(98,71,170,1) 0%, rgba(6,15,18,1) 65%);
 }
 
 /* Link Style */
