@@ -6,8 +6,8 @@ body {
 /* Section Styling */
 
 #index-hero-section {
+  min-width: 100%;
   min-height: 70vh;
-  
 }
 
 .hero-astronaut {
