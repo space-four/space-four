@@ -19,14 +19,14 @@ body {
   color: white;
 }
 
+.limit-card-45 {
+  max-width: 45%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.center-div {
-  margin: 0 auto;
 }
 
 /* Button-Group */
