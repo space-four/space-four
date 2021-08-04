@@ -19,6 +19,10 @@ body {
   color: white;
 }
 
+.limit-card-15 {
+  max-width: 15%;
+}
+
 .limit-card-45 {
   max-width: 45%;
 }
@@ -27,6 +31,12 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 /* Button-Group */
@@ -69,6 +79,13 @@ body {
   .section-wrapper {
     padding: 10% 20px;
   }
+
+  .flex-row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .card {
     margin: 10px;
     padding: 10px 20px;

@@ -142,6 +142,13 @@ h6 {
   font-size: 18px;
 }
 
+.accent-headline-darkmode {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+
 /* Card-Styles */
 
 .box-shadow {
