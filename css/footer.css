@@ -10,6 +10,10 @@
     list-style: none;
     padding: 10px 0;
 }
+.footer-column ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
 .footer-column a {
     color: white;
