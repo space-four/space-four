@@ -6,6 +6,10 @@
     margin-top: 25px;
 }
 
+.footer-logo {
+    margin-left: 30px;
+}
+
 .footer-column li {
     list-style: none;
     padding: 10px 0;
