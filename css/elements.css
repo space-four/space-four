@@ -65,13 +65,9 @@ body {
   .limit-card-45 {
     max-width: 100%;
   }
-
-  .page-wrapper {
-    padding: 0px 10px;
-  }
   
   .section-wrapper {
-    padding: 10% 2%;
+    padding: 10% 20px;
   }
   .card {
     margin: 10px;
