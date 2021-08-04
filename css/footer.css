@@ -1,0 +1,21 @@
+.footer-column {
+    min-width: 15%
+}
+
+.social-icons-footer {
+    margin-top: 25px;
+}
+
+.footer-column li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-column a {
+    color: white;
+}
+
+.footer-icon {
+    max-width: 65px;
+    margin: 0 5px;
+}
