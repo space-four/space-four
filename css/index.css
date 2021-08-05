@@ -23,14 +23,3 @@ body {
 .color-section-divider {
   margin: 2em 1em;
 }
-
-/* Mobile Styles */
-
-@media all and (max-width: 600px) {
-
-  .footer-column li {
-    list-style: none;
-    padding: 5px 0;
-}
-
-}
