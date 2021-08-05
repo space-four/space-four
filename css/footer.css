@@ -37,7 +37,10 @@
     .footer-column li {
       list-style: none;
       padding: 5px 0;
-      font-size: 14px;
   }
+
+    .footer-column a {
+      font-size: 14px;
+    }
   
   }
