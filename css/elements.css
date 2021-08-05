@@ -9,6 +9,15 @@ body {
   max-width: 1200px;
 }
 
+.content-width-limiter {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.small-fullwidth-bar {
+  height: 20px;
+}
+
 .card {
   padding: 25px 25px;
   margin: 20px 10px;
@@ -68,7 +77,13 @@ body {
     display: inline-block;
   }
 
-  /* Responsive Styles */
+/*Specific Section Styling*/
+
+#section-shadow-specs {
+  margin-bottom: 200px;
+}
+
+/* Responsive Styles */
 
 @media all and (max-width: 800px) {
 
