@@ -2,10 +2,6 @@
     min-width: 15%
 }
 
-.social-icons-footer {
-    margin-top: 25px;
-}
-
 .footer-logo {
     margin-left: 30px;
 }
@@ -23,11 +19,6 @@
 .footer-column a {
     color: white;
     font-weight: 300;
-}
-
-.footer-icon {
-    max-width: 65px;
-    margin: 0 5px;
 }
 
 /* Mobile Styles */
