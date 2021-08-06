@@ -209,11 +209,20 @@ h6 {
   background: #062726
 }
 
+.background-white {
+  background: white;
+}
+
 /* Color Gradient */
 
 .color-gradient-background {
   background: rgb(98,71,170);
   background: linear-gradient(172deg, rgba(98,71,170,1) 0%, rgba(6,15,18,1) 65%);
+}
+
+.color-gradient-low-backgroud {
+  background: rgb(98,71,170);
+  background: linear-gradient(175deg, rgba(98,71,170,1) 0%, rgba(6,15,18,1) 95%);
 }
 
 /* Link Style */
@@ -223,6 +232,10 @@ h6 {
 
 .center-text {
   text-align: center;
+}
+
+.icon-size-small {
+  max-width: 35px;
 }
 
 /* Responsive Styles */
