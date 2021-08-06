@@ -18,6 +18,10 @@ body {
   min-width: 33%;
 }
 
+#agile-process-section img {
+  max-width: 250px;
+}
+
 /* Site-Specific Component Styles */
 
 .color-tile {
