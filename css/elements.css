@@ -38,6 +38,11 @@ body {
   color: white;
 }
 
+.align-center {
+  /* Put inside flex-row-container to center card(s) inside */
+  justify-content: center;
+}
+
 .limit-card-15 {
   max-width: 15%;
 }

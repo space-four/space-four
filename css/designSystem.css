@@ -15,9 +15,6 @@
   min-width: 80px;
 }
 
-
-
-
 .button:hover {
   box-shadow: 0 0;
   transition: box-shadow 0.3s ease-out;
@@ -133,9 +130,20 @@ h6 {
   font-size: 14px;
 }
 
-.hero-headline {
-  font-size: 50px;
+.cta-headline {
+  color: #fff;
+  font-size: 120px;
+  font-family: 'Russo One', sans-serif;
   text-transform: uppercase;
+  text-shadow: 0px 125px 20px rgba(0,0,0,0.82);
+}
+
+.cta-text {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 0px 125px 20px rgba(0,0,0,0.82);
 }
 
 .lighter-headline {
@@ -237,6 +245,11 @@ h6 {
   text-align: center;
 }
 
+.fullwidth-background-image {
+  background-size: cover;
+  background-position: center;
+}
+
 .icon-size-small {
   max-width: 35px;
 }
@@ -271,6 +284,14 @@ h6 {
 
     .bigger-font {
       font-size: 17px;
+    }
+
+    .cta-headline {
+      font-size: 60px;
+    }
+    
+    .cta-text {
+      font-size: 20px;
     }
   
   }

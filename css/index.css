@@ -22,6 +22,11 @@ body {
   max-width: 250px;
 }
 
+#call-to-action-section {
+  background-image: url('../assets/img/index/cta-background.jpeg'), linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+  background-blend-mode: overlay;
+}
+
 /* Site-Specific Component Styles */
 
 .color-tile {
