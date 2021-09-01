@@ -17,7 +17,7 @@ body {
 .section-wrapper {
   padding: 75px 20px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 80%;
 }
 
 .content-width-limiter {
@@ -32,6 +32,7 @@ body {
 .card {
   padding: 25px 50px;
   margin: 20px 20px;
+  min-width: 100px;
   }
 
 .card-dark {
@@ -116,6 +117,14 @@ body {
 /* Responsive Styles */
 
 @media all and (max-width: 800px) {
+
+  .limit-card-15 {
+    max-width: 100%;
+  }
+
+  .limit-card-25 {
+    max-width: 100%;
+  }
 
   .limit-card-45 {
     max-width: 100%;
