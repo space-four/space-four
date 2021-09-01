@@ -1,0 +1,13 @@
+#front-page-hero {
+        background-image: url('../assets/img/frontPage/heroimage-frontpage.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+}
+
+.front-page-tile-1 {
+    background-image: url('../assets/img/frontPage/tile-background-1.jpeg'), linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
