@@ -3,6 +3,17 @@ body {
   padding: 0;
 }
 
+.blog-tile {
+  border: 1px solid #e7e7e7;
+  transition: all 0.4s ease;
+}
+
+.blog-tile:hover {
+  box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.5);
+  bottom: 5;
+  transform: translateY(-10px);
+}
+
 .section-wrapper {
   padding: 75px 20px;
   margin: 0 auto;
@@ -45,6 +56,10 @@ body {
 
 .limit-card-15 {
   max-width: 15%;
+}
+
+.limit-card-25 {
+  max-width: 25%;
 }
 
 .limit-card-45 {
