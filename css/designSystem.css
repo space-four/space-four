@@ -1,3 +1,9 @@
+/* Anchor Styles */
+
+a { 
+  text-decoration: none;
+}
+
 /* Button-Styles*/
 
 .button {
